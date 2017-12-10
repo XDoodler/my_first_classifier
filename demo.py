@@ -11,8 +11,8 @@ print("0=FEMALE")
 
 plt.text(160,44, 'blue dots=Male; Red dots=Female',
          fontsize=10)
-plt.xlabel('weight')
-plt.ylabel('height')
+plt.xlabel('height')
+plt.ylabel('weight')
 plt.axis([145,190,40,90])
 plt.show();
 
